@@ -15,8 +15,7 @@
 
 <style lang="scss">
 #app {
-  position: fixed;
-  height: 100vh;
+  min-height: 100vh;
   width: 100vw;
   margin: 0;
   padding: 0;
@@ -24,6 +23,7 @@
 }
 
 #nav {
+  position: fixed;
   display: flex;
   justify-content: space-between;
   align-items: center;

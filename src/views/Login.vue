@@ -31,7 +31,7 @@
 
 <script lang="ts"></script>
 
-<style lang="scss">
+<style lang="scss" scoped>
 .container {
   display: flex;
   position: absolute;
@@ -51,7 +51,7 @@
 
 .form-group {
   display: flex;
-  width: 65%;
+  width: 60%;
   height: 50%;
   flex-direction: column;
 }
